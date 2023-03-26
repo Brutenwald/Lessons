@@ -1,0 +1,137 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+.main__car div{
+    max-width: 1240px;
+    padding-left:20px ;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main__car:first-child{
+    margin-top: 200px;
+}
+.main__car:last-child{
+    margin-bottom: 100px;
+}
+[class*='-property']{
+    background-color: #654321;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.transform__translate-property:hover {
+	transform: translateY(50px);
+}
+.transform__scale-property:hover {
+	transform: scale(1, -1);
+}
+.transform__rotate-property:hover {
+	transform: rotate(100deg);
+}
+.transform__matrix-property:hover {
+	transform: matrix(5, 1, 1, 1, 1, 1);
+}
+.transform__multi-property:hover {
+	transform: translate(50px, 50px) scale(0.5) rotate(45deg);
+}
+.transform__transform-origin-property:hover {
+    transform-origin: 0 0;
+	transform: rotate(300deg);
+}
+.transform__perspective-property:hover {
+	transform: rotateX(50deg);
+}
+.transform__scale3d-property:hover {
+	transform: scale3d(2, 2, 5);
+}
+.transform__rotate3d-property:hover {
+	transform: rotate3d(1, 1, 1, 45deg);
+}
+.transform__multi3d-property:hover {
+	transform: translate3d(20px, 20px, 20px) rotate3d(1, 1, 1, 10deg);
+}
+.lesson{
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+    letter-spacing: 1px;
+    
+ }
+ .footer{
+    padding-bottom: 50px;
+ }
+ .button{
+     background-color: blue;
+     padding: 10px;
+     border-radius: 10px;
+     display: inline-block;
+     margin-top: 10px;
+     
+ }
+ .button:hover{
+     background-color: gray;
+     color: white;
+     transition: 0.5s;
+ 
+ }
+.car__box{
+	width: 80px;
+	height: 80px;
+    background-color:#654321;
+}
+.car__box-line-left{
+    width: 79px;
+	height: 10px;
+    background-color:#DEB887;
+    transform: rotate(90deg);
+    position: relative;
+    right: 45px;
+    top:50px;
+}
+.car__box-line-right{
+    width: 79px;
+	height: 10px;
+    background-color:#DEB887;
+    transform: rotate(90deg);
+    position: relative;
+    left: 45px;
+    top:40px;
+}
+.car__box-line{
+    width: 110px;
+	height: 10px;
+    background-color:#DEB887 ;
+    transform: rotate(140deg);
+    position: relative;
+    right: 1px;
+    top:80px;
+}
+.car__box-line-top{
+    width: 100px;
+	height: 10px;
+    background-color:#DEB887 ;
+    transform:translate(0px,20px);
+
+}
+.car__box-line-bottom{
+    width: 100px;
+	height: 10px;
+    background-color:#DEB887;
+    transform:translate(0px,110px);
+}
+.car__corps{
+    margin-left: 450px;
+    display: block;
+    transform:translate(60px,-90px);
+}
+.car__back-wheel{
+    margin-left: 535px;
+    transform:translate(0px,-185px);
+}
+.car__front-wheel{
+    margin-left: 90px;
+    transform:translate(0px,-185px);
+}
