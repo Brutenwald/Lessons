@@ -1,0 +1,121 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+img{
+    max-width: 400px;
+    max-height: 250px;
+    margin-bottom: 40px;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    font-weight: 500;
+}
+.column__link {
+    margin-left: 15px;
+    color: rgba(73, 80, 87, 0.5);
+    font-size: 12px;
+    line-height: 25px;
+
+}
+.categories__menu{
+    font-size: 12px;
+    line-height: 25px;
+    color: #495057;
+}
+.column__link:hover{
+    color: #495057;
+    transition: 0.5s;
+}
+.footer__content{
+    display: flex;
+    justify-content: center;
+}
+.footer__button{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #F8F9FA;
+    background: #212529;
+    border-radius: 3px;
+    padding: 10px 60px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.footer__button:hover{
+    color:#212529 ;
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+.main__container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.gallery__button{
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 20px;
+    display: inline-block;
+    transform:translate(310px,50px);
+    color: #F8F9FA;
+    text-align: center;
+    background-color: rgba(33, 37, 41, 0.3);
+    padding: 3px 10px;
+    border-radius: 3px;
+    opacity: 60%;
+}
+.gallery__button:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+[class*='-photo']{
+    flex-direction:column ;
+    display: flex;
+    align-items:flex-start;
+    margin-right: 10px;
+}
+
+.gallery__date{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+    margin-bottom: 30px; 
+}
+
+.gallery__name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.gallery__description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+.gallery__author {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+    border-top: 1px solid #E5E5E5;
+	padding-top: 15px;
+}
+.gallery__content{
+    display: flex;
+    flex-wrap: wrap;
+}
